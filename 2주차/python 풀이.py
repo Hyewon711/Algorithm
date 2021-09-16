@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
-
 import pandas as pd
-
-
-# In[3]:
-
 
 #그리디 알고리즘의 정당성
 
@@ -29,8 +22,7 @@ i = n-1
 
 for i in range(n):
     arr.append(int(input()))
-
-
+    
 while i >= 0:
     if k >= arr[i]: 
         k -= arr[i] 
@@ -39,10 +31,3 @@ while i >= 0:
         i -= 1 
 
 print(cnt)
-
-
-# In[ ]:
-
-
-
-
